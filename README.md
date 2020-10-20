@@ -20,9 +20,13 @@ If you have the git utility installed on your computer you can run the command:
 
      git clone https://github.com/gregpalmr/dremio-cloner-demo
 
-If you don't have the git utility installed, you can download this repo as a ZIP file by clicking on the green "Code" button and selecting the "Download ZIP" option. Then unzip the file to a folder to which you have access.
+If you don't have the git utility installed, you can download this repo as a ZIP file by following these steps:
 
-Open up Windows Powershell or MacOS terminal shell and navigate to the folder that you places the Git repo.
+1. Point your Web browser to this Github repo: https://github.com/gregpalmr/dremio-cloner-demo
+2. Click on the green "Code" button and select the "Download ZIP" option. 
+3. Unzip the file to a folder in your user's home directory. 
+
+Open up a Windows Powershell or MacOS terminal session and navigate to the folder that you places the Git repo.
 
      Windows
 
