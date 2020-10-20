@@ -50,9 +50,9 @@ Point your web browser to the first Dremio cluster (http://localhost:9048) and p
 
 1. Register the first (admin) user with the username `admin1` and password `changeme123`.
 2. Click on the Admin link in the upper right corner and then the Users link on the left.
-   Add the following users: fred, barney
-3. Click on the "Add Sample Source" button to define the data source
-   (This is required because the Dremio Cloner cannot create data sources, they must already exist)
+   Add the following users: `fred`, `barney`.
+3. Click on the "Add Sample Source" button to define the data source.
+   (This is required because the Dremio Cloner cannot create data sources, they must already exist.)
 
 
 ### Restore the metadata from a previously backed up Dremio cluster
