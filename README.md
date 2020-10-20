@@ -46,11 +46,11 @@ Launch a Dremio cluster as a Docker container
 
 The Dremio cloner doesn't support encyrpted passwords, so you must create the test users and the sample data source manually. In a production environment, most likely Dremio would get usernames and passwords by integrating with an Active Directory or LDAP service, but for this demo, create the users maually.
 
-Point your web browser to the first Dremio cluster (http://localhost:9048) and perform the following steps:
+Point your web browser to the first Dremio cluster (http://localhost:9047) and perform the following steps:
 
 1. Register the first (admin) user with the username `admin1` and password `changeme123`.
 2. Click on the Admin link in the upper right corner and then the Users link on the left.
-   Add the following users: `fred`, `barney`.
+   Add the following users: `fred` and `barney`. Use the password `changeme123` for each user.
 3. Click on the "Add Sample Source" button to define the data source.
    (This is required because the Dremio Cloner cannot create data sources, they must already exist.)
 
