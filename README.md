@@ -26,11 +26,11 @@ If you don't have the git utility installed, you can download this repo as a ZIP
 2. Click on the green "Code" button and select the "Download ZIP" option. 
 3. Unzip the file to a folder in your user's home directory. 
 
-Open up a Windows Powershell or MacOS terminal session and navigate to the folder that you places the Git repo.
+Open up a Windows Powershell or MacOS terminal session and navigate to the folder to which you places the Git repo files.
 
      Windows
 
-          cd \Users\<MY USER>\dremio-cloner-demo
+          cd \Users\<MY USER>\dremio-cloner-demo-main
 
      MacOS
 
@@ -48,7 +48,7 @@ The Dremio cloner doesn't support encyrpted passwords, so you must create the te
 
 Point your web browser to the first Dremio cluster (http://localhost:9048) and perform the following steps:
 
-1. Register the first (admin) user with the username: admin1
+1. Register the first (admin) user with the username `admin1` and password `changeme123`.
 2. Click on the Admin link in the upper right corner and then the Users link on the left.
    Add the following users: fred, barney
 3. Click on the "Add Sample Source" button to define the data source
